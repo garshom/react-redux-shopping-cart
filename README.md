@@ -1,15 +1,15 @@
-In this project we have implemented a shopping cart checkout purchase Summary user interface using React. and the following  are the Key UI elements
+In this project we have implemented a shopping cart checkout purchase summary user interface using React-Redux and the following are the Key UI elements
 
-## Key UI elements:
+## `Key UI elements`
  * The Pickup savings tooltip
  * The See item details expander
  * The Redeem Promo code expander
 
-The user shoul will be able to enter a promo code "DISCOUNT60
+The user will be able to enter a promo code "DISCOUNT60
 and on applying it, see a 60% discount reflect in the purchase summary
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the git application project using url https://github.com/garshom/react-redux-shopping-cart.git
 
 ## Available Scripts
 
@@ -20,27 +20,14 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Made with Love 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
+Author : Charles G. Kisakye 
 
 Thank you!
-Author : Charles K 
 
