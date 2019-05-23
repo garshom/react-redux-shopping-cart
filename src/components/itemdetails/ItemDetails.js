@@ -17,17 +17,17 @@ export default class ItemDetails extends Component {
             <div>
                 <Button
                         className="item-details-button"
-                        bsstyle="link"
+                        variant="link"
                         onClick={()=>this.setState({open:!this.state.open})}
                 >
                     {this.state.open===false? "See":"Hide"} item details
                     {this.state.open===false ?"+":"-"}
                 </Button>
-
+                <br/>
                 <Collapse in={this.state.open}>
                     
-                    <div>
-                        <br/>
+                    <div className="card card-body">
+                        
                             <Media>
                                 <Media className="Left">
                                     <img
