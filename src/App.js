@@ -7,6 +7,8 @@ import PickupSavings from "./components/pickupsavings/PickupSavings"
 import TaxesFees from "./components/taxesfees/TaxesFees"
 import EstimatedTotal from "./components/estimatedtotal/EstimatedTotal"
 
+import ItemDetails from "./components/itemdetails/ItemDetails"
+
 class App extends Component {
 
   constructor(props){
@@ -18,6 +20,7 @@ class App extends Component {
       estimatedtotal:0
     }
   }
+
   render(){
     return (
       <div className="container">
@@ -27,7 +30,10 @@ class App extends Component {
           <PickupSavings price={this.state.pickupsavings}/>
           <TaxesFees taxes={this.state.taxes.toFixed(2)}/>
           <hr/>
-          <EstimatedTotal total={this.state.estimatedtotal}/>
+          <EstimatedTotal total={this.state.estimatedtotal.toFixed(2)}/>
+          <ItemDetails price={this.state.estimatedtotal.toFixed(2)}/>
+
+          <hr/>
         </Continer>
       </div>
     );
