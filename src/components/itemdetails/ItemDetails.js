@@ -34,11 +34,11 @@ export default class ItemDetails extends Component {
                                         width={100}
                                         height={100}
                                         alt="thumbnail"
-                                        src="https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff"
+                                        src="https://i5.walmartimages.com/asr/60d8f806-9a49-4e88-bd5d-ef6b8a99f70b_3.33abadc49170f199f347390fae6e0524.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff"
                                     />
                                 </Media>
                                 <Media.Body>
-                                    <p>Essentials by OFM ESS-3085 racing Style Leather Gamming chair</p>
+                                    <p>Safety 1st Grow and Go Sprint 3-in-1 Convertible Car Seat, Seafarer</p>
 
                                     <Row className="show-grid">
                                         <Col md={6}>

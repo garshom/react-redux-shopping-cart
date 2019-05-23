@@ -21,8 +21,8 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      total:200,
-      pickupsavings:-3.85,
+      total:265.45,
+      pickupsavings:-6.45,
       taxes:0,
       estimatedtotal:0,
       disablePromoButton:false
