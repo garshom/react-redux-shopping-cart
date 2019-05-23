@@ -42,10 +42,10 @@ export default class ItemDetails extends Component {
 
                                     <Row className="show-grid">
                                         <Col md={6}>
-                                            <strong> ${this.props.price}</strong>
+                                            <strong> {this.props.currency} {this.props.price}</strong>
                                             <br/>
                                             <strong className="price-strike">
-                                                ${this.props.price}
+                                            {this.props.currency} {this.props.price}
                                             </strong> 
                                             
                                         </Col>

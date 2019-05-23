@@ -32,7 +32,7 @@ export default class PickupSavings extends Component {
             </OverlayTrigger>
           </Col>
           <Col style={styles.totalSavings} md={6}>
-            $ {this.props.price}
+          {this.props.currency} {this.props.price}
           </Col>
         </Row>
       </div>

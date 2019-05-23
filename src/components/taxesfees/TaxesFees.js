@@ -9,7 +9,7 @@ export default class TaxesFees extends Component {
       
         <Row className="show-grid">
             <Col md={6}>Est. taxes & fees (+VAT)</Col>
-            <Col md={6}>$ {this.props.taxes}</Col>
+            <Col md={6}>{this.props.currency} {this.props.taxes}</Col>
         </Row>
      
     )

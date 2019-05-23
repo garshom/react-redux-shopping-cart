@@ -25,7 +25,8 @@ class App extends Component {
       pickupsavings:-6.45,
       taxes:0,
       estimatedtotal:0,
-      disablePromoButton:false
+      disablePromoButton:false,
+      currency:"£"
     }
   }
 
@@ -61,12 +62,12 @@ class App extends Component {
   
         <Continer className="purchase-card">
           <hr/>
-          <Subtotal price={this.state.total.toFixed(2)}/>
-          <PickupSavings price={this.state.pickupsavings}/>
-          <TaxesFees taxes={this.state.taxes.toFixed(2)}/>
+          <Subtotal price={this.state.total.toFixed(2)} currency={this.state.currency}/>
+          <PickupSavings price={this.state.pickupsavings} currency={this.state.currency}/>
+          <TaxesFees taxes={this.state.taxes.toFixed(2)} currency={this.state.currency}/>
           <hr/>
-          <EstimatedTotal total={this.state.estimatedtotal.toFixed(2)}/>
-          <ItemDetails price={this.state.estimatedtotal.toFixed(2)}/>
+          <EstimatedTotal total={this.state.estimatedtotal.toFixed(2)} currency={this.state.currency}/>
+          <ItemDetails price={this.state.estimatedtotal.toFixed(2)} currency={this.state.currency}/>
 
           <hr/>
           <PromoCodeDiscount 
