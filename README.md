@@ -9,6 +9,12 @@ The user will be able to enter a promo code "DISCOUNT60
 and on applying it, see a 60% discount reflect in the purchase summary
 
 
+## Application Screenshot
+
+![img](https://github.com/garshom/react-redux-shopping-cart/blob/master/public/screenshot.png)
+
+
+
 Clone the git application project using url https://github.com/garshom/react-redux-shopping-cart.git
 
 ## Available Scripts
